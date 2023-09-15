@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    gap: 1rem;
+
+
+}
+
+button {
+    height: 2.6rem;
+    width: 5.6rem;
+    border: 2px solid black;
+    border-radius: 6px;
+    flex: 1;
+}
